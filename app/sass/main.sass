@@ -398,12 +398,11 @@ header, footer
 
   &__text
     position: relative
-    padding: 11px 40px 0 20px
+    padding: 11px 40px 11px 20px
     font-size: 12px
     line-height: 15px
     z-index: 1
-    margin: 0 0 9px
-
+    width: calc(100% + 20px)
     &:before
       content: ''
       position: absolute
@@ -411,7 +410,7 @@ header, footer
       top: 0
       height: 100%
       transform: translate(-50%, 0)
-      width: calc(100% + 40px)
+      width: 100%
       background: #F7FFF5
       z-index: -1
 
@@ -421,7 +420,7 @@ header, footer
   align-items: center
   flex-wrap: wrap
   justify-content: space-between
-
+  margin: 10px 0 0
   h4
     font-weight: bold
     font-size: 12px
